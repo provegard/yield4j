@@ -1,0 +1,10 @@
+package org.yield4j.error;
+import static org.yield4j.YieldSupport.*;
+
+//!! ERROR(8) unreachable code
+public class UnreachableVariableDeclaration {
+    @org.yield4j.Generator public Iterable<Integer> method() {
+        yield_break();
+        int i = 0;
+    }
+}

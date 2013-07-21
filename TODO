@@ -1,0 +1,10 @@
+* Run finally blocks for "paused" generator in finalize method. Perhaps.
+* Error if yield_return or yield_break used as non-statement.
+* Make messages consistent and correct. Unreachable code vs statement? Upper/lower case on first letter?
+* Move messages into a message bundle.
+* yield foreach: http://blogs.msdn.com/b/wesdyer/archive/2007/03/23/all-about-iterators.aspx
+* Adjust source code positions of rewritten statements to make error reporting work properly. Also debugging.
+* Add additional test cases to verify that the resulting exception from a try-with-resources is the correct one.
+* Rename setState on the iterator class to yield_return, to make error message due to type mismatch easier to understand. Possibly also ditch index parameter?
+* Remove yield4j as a runtime dependency. Should be compile-time dependency only.
+

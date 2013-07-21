@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="yield4j" verbose="1">
+	<test name="Samples">
+		<packages>
+			<package name="test.org.yield4j"/>
+			<package name="test.org.yield4j.graph"/>
+		</packages>
+	</test>
+</suite>
